@@ -1,0 +1,116 @@
+  body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 2rem;
+        background: #eaf1fc;
+      }
+
+      h1 {
+        text-align: center;
+        color: #2c3e50;
+      }
+
+      .subtitle {
+        text-align: center;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+        font-size: 0.95rem;
+        color: #555;
+      }
+
+      .controls {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+        gap: 0.5rem;
+      }
+
+      input[type="number"] {
+        padding: 0.5rem;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        width: 200px;
+      }
+
+      button {
+        padding: 0.5rem 1rem;
+        border: none;
+        background-color: #3b82f6;
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+      }
+
+      button:hover {
+        background-color: #2563eb;
+      }
+
+      .checkout-container {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .checkout {
+        background: #fff;
+        padding: 1.5rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        width: 250px;
+        position: relative;
+      }
+
+      .checkout.active {
+        border: 2px solid #22c55e;
+      }
+
+      .checkout h2 {
+        margin: 0;
+        font-size: 1.1rem;
+        color: #1f2937;
+      }
+
+      .stats {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;      
+        color: #6b7280;
+        font-size: 0.9rem;
+      }
+
+      .queue {
+        list-style: none;
+        padding: 0;
+        margin-top: 1rem;        
+      }
+      
+      
+      .queue li {
+        background: #f3f4f6;
+        margin: 6px 0;
+        padding: 8px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #374151;
+      }
+
+      .queue li::before {
+        content: "\1F6D2"; 
+      }
+
+      .total {
+        text-align: center;
+        margin-top: 1rem;
+        font-weight: 600;
+        color: #7a818c;
+      }
+
+      .counter {
+        display: flex;       
+        align-content: center;
+        justify-content: space-between;
+      }

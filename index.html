@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css" />
+    <link rel="icon" href="https://img.icons8.com/softteal/24/shopping-cart.png">
+    <link rel="stylesheet" href="index.css" />
+    <title>Hypermart Checkout System</title>
+    
+  </head>
+  <body>
+    <h1>Hypermart Checkout System</h1>
+    <div class="subtitle">Real-time queue management system</div>
+    <div class="controls">
+      <input
+        type="number"
+        id="itemInput"
+        placeholder="Enter number of items"
+        min="1"
+      />
+      <button onclick="addCustomer()">Checkout Items</button>
+    </div>
+    <div class="checkout-container" id="checkoutContainer"></div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
